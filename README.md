@@ -130,3 +130,7 @@ Use the Zig pinned by mlx-serve (`../mlx-serve/.zig-toolchain/zig`).
     zig build bench -Dm=6 -Dshapes=e2b            # a 6 row verify step, Gemma E2B shapes only
 
 `scripts/gen_fixtures.sh` regenerates `src/fixtures/` from ggml's own dequant (needs a libllama dylib, defaults to the one staged in mlx-serve). `scripts/gen_tables.py` regenerates the IQ codebooks (`src/iq_tables.zig`, `src/metal/tables/`) from ggml-common.h.
+
+## Contributors
+
+Everyone credited so far: [CONTRIBUTORS.md](CONTRIBUTORS.md).
